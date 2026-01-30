@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos Externos</title>
+    <link rel="stylesheet" href="style.css"> <!-- CSS Externo -->
+    <style> 
+        h1 {
+            text-decoration: underline;
+        }
+    </style> <!-- CSS Interno -->
+</head>
+<body>
+    <h1>Capítulo 1</h1>
+    <h2>Capítulo 1.1</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum veritatis minima, reiciendis commodi enim, asperiores culpa quibusdam, accusantium labore alias cumque doloribus omnis ipsum at adipisci aspernatur similique! Qui, aliquam.</p>
+    <h2>Capítulo 1.2</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate exercitationem natus expedita voluptates incidunt corporis quam eligendi. Et, minima dolorem fugit totam doloremque corrupti eum ullam a consequatur impedit ducimus.</p>
+    <h1>Capítulo 2</h1>
+    <h2>Capítulo 2.1</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati similique a praesentium eos voluptatem animi iure accusamus earum nostrum esse modi, soluta impedit velit sunt eveniet ad iste nobis quod.</p>
+    <p style="text-align: right;"><a href="pagina02.html" target="_self" rel="next">Ir para a página 2</a></p> <!-- CSS Inline -->
+</body>
+<!-- Nesse mesmo arquivo foi usado CSS interno, externo e inline. O estilo inline se sobrepôs, em seguida vem o interno e só depois o externo. Entretando o estilo externo é mais versátil. É melhor evitar o inline, a não ser que seja uma coisa muito pontual, específica. O estilo interno é bom usar apenas para estilos pequenos. À medida que o código for crescendo, é melhor usar o estilo externo. -->
+</html>
